@@ -14,6 +14,6 @@ jobs:
       - name: First interaction
         run: gh pr comment 42 --body "Thanks for the update! Looks good."
     env:
-      GIT_HUB_TOKEN: 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
+      GITHUB_TOKEN: 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
       PR_URL: https://github.com/anjana5769/skills-hello-github-actions/pull/7
 
