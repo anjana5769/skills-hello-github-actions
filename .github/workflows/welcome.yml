@@ -8,7 +8,7 @@ permissions:
   pull-requests: write 
   
 jobs:
-  welcome-job:
+  welcome:
     runs-on: ubuntu-latest    
     steps:
       - name: First interaction
